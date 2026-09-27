@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "first-repo",
+  "owner": {
+    "name": "Pedro Jaimot"
+  },
+  "metadata": {
+    "description": "Claude Code plugins from masterpeteworld/first-repo"
+  },
+  "plugins": [
+    {
+      "name": "caveman",
+      "source": "./",
+      "description": "Token-saving terse mode — no filler, no narration, just results",
+      "version": "1.0.0",
+      "license": "MIT",
+      "homepage": "https://github.com/masterpeteworld/first-repo",
+      "keywords": ["terse", "output-style", "tokens"],
+      "category": "productivity",
+      "strict": false,
+      "skills": ["./.claude/skills/caveman"]
+    }
+  ]
+}
