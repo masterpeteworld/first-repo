@@ -14,3 +14,7 @@ This repo is a Claude Code plugin marketplace (`.claude-plugin/marketplace.json`
 /plugin marketplace add masterpeteworld/first-repo
 /plugin install caveman@first-repo
 ```
+
+## MCP servers
+
+`.mcp.json` registers the Perplexity MCP server (pinned to `1.3.0`). The key is read from the `PERPLEXITY_API_KEY` environment variable — set it in your shell or cloud environment settings; never commit it.
